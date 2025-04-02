@@ -1,0 +1,17 @@
+module router_1to8_tb();
+reg [7:0] in;
+reg [2:0] sel;
+wire [7:0] out0, out1, out2, out3, out4, out5, out6, out7;
+router_1to8 A(in,sel,out0, out1, out2, out3, out4, out5, out6, out7);
+initial begin
+sel=3'b000;in=8'd20;#10;
+sel=3'b001;in=8'd30;#10;
+sel=3'b010;in=8'd40;#10;
+sel=3'b011;in=8'd50;#10;
+sel=3'b100;in=8'd60;#10;
+sel=3'b101;in=8'd70;#10;
+sel=3'b110;in=8'd80;#10;
+sel=3'b111;in=8'd90;#10;
+$finish;
+end
+endmodule
