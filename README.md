@@ -7,5 +7,7 @@ The control signal (often called the select signal) determines which of the eigh
 **simulation results:**
 ![image](https://github.com/user-attachments/assets/ec054f24-7b71-411b-9003-990b0caeba1f)
 
+
 **schematic:**
+
 ![image](https://github.com/user-attachments/assets/7e25d1a6-048f-4b70-8f8e-c5fd1307f707)
